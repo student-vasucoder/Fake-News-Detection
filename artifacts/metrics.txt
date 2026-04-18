@@ -1,0 +1,17 @@
+Fake News Detection Metrics
+===========================
+Accuracy: 0.9337
+Train size: 5068
+Test size: 1267
+Confusion matrix [FAKE, REAL]:
+[[596, 37], [47, 587]]
+
+Classification report:
+              precision    recall  f1-score   support
+
+        FAKE     0.9269    0.9415    0.9342       633
+        REAL     0.9407    0.9259    0.9332       634
+
+    accuracy                         0.9337      1267
+   macro avg     0.9338    0.9337    0.9337      1267
+weighted avg     0.9338    0.9337    0.9337      1267
